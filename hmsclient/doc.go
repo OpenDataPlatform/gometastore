@@ -20,7 +20,7 @@ Example usage:
 
   import(
     "log"
-    "github.com/akolb1/gometastore/hmsclient"
+    "github.com/SergeAlexandre/gometastore/hmsclient"
   )
 
   func printDatabases() {

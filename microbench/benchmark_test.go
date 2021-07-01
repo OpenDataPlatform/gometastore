@@ -2,19 +2,17 @@ package microbench
 
 import (
 	"fmt"
-
-	"github.com/akolb1/gometastore/microbench"
 )
 
 func ExampleMeasureSimple() {
-	microbench.MeasureSimple(func() {
+	MeasureSimple(func() {
 		fmt.Print("hello ")
 	}, 1, 2)
 	// Output: hello hello hello
 }
 
 func ExampleMeasure() {
-	microbench.Measure(
+	Measure(
 		func() {
 			fmt.Print(" pretest")
 		},
@@ -28,7 +26,7 @@ func ExampleMeasure() {
 }
 
 func ExampleStats_Max() {
-	stats := microbench.MakeStats()
+	stats := MakeStats()
 	stats.Add(1.0)
 	stats.Add(2.0)
 	fmt.Println("max =", stats.Max())
@@ -36,7 +34,7 @@ func ExampleStats_Max() {
 }
 
 func ExampleStats_Min() {
-	stats := microbench.MakeStats()
+	stats := MakeStats()
 	stats.Add(1.0)
 	stats.Add(2.0)
 	fmt.Println("min =", stats.Min())

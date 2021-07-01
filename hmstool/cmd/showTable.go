@@ -16,10 +16,10 @@ package cmd
 
 import (
 	"fmt"
+	"github.com/SergeAlexandre/gometastore/hmsclient/thrift/gen-go/hive_metastore"
+	"github.com/SergeAlexandre/gometastore/hmstool/hmsutil"
 	"log"
 
-	"github.com/akolb1/gometastore/hmsclient/thrift/gen-go/hive_metastore"
-	"github.com/akolb1/gometastore/hmstool/hmsutil"
 	"github.com/spf13/cobra"
 )
 

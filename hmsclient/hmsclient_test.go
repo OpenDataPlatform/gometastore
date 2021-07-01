@@ -21,7 +21,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/akolb1/gometastore/hmsclient"
+	"github.com/SergeAlexandre/gometastore/hmsclient"
 )
 
 func ExampleOpen() {

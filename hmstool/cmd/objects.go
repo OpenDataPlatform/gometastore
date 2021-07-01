@@ -6,8 +6,8 @@ import (
 	"io/ioutil"
 	"log"
 
-	"github.com/akolb1/gometastore/hmsclient"
-	"github.com/akolb1/gometastore/hmsclient/thrift/gen-go/hive_metastore"
+	"github.com/SergeAlexandre/gometastore/hmsclient"
+	"github.com/SergeAlexandre/gometastore/hmsclient/thrift/gen-go/hive_metastore"
 	"github.com/spf13/viper"
 )
 

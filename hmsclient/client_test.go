@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/akolb1/gometastore/hmsclient"
+	"github.com/SergeAlexandre/gometastore/hmsclient"
 )
 
 func Example() {
